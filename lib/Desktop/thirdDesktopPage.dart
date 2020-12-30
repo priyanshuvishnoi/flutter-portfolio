@@ -115,7 +115,7 @@ Widget thirdDesktopPage(BuildContext context) {
                     Expanded(
                       child: Container(
                         alignment: Alignment.center,
-                        child: new Text("UI/UX Design",
+                        child: new Text("Backend Development",
                             style: GoogleFonts.robotoMono(
                               fontSize: 18,
                               textStyle: TextStyle(
@@ -185,14 +185,14 @@ Widget thirdDesktopPage(BuildContext context) {
                         Column(
                           children: [
                             Container(
-                              child: Icon(AntDesign.smile_circle,
+                              child: Icon(AntDesign.Trophy,
                                   size: 50.0, color: Colors.white),
                             ),
                             SizedBox(
                               height: 10,
                             ),
                             Container(
-                              child: Text("2+",
+                              child: Text("1st Runner Up",
                                   style: GoogleFonts.varelaRound(
                                       textStyle: new TextStyle(
                                           color: Colors.white, fontSize: 18))),
@@ -201,7 +201,7 @@ Widget thirdDesktopPage(BuildContext context) {
                               height: 10,
                             ),
                             Container(
-                              child: Text("Happy Clients",
+                              child: Text("in InterCollege Hackathon",
                                   style: GoogleFonts.varelaRound(
                                       textStyle: new TextStyle(
                                           color: Colors.white, fontSize: 18))),
@@ -245,38 +245,7 @@ Widget thirdDesktopPage(BuildContext context) {
                         SizedBox(
                           width: 130,
                         ),
-                        Column(
-                          children: [
-                            Container(
-                              child: Icon(FlutterIcons.comment_quotes_fou,
-                                  size: 50, color: Colors.white),
-                            ),
-                            SizedBox(
-                              height: 10,
-                            ),
-                            Container(
-                                child: Text(
-                              "5+",
-                              style: GoogleFonts.varelaRound(
-                                  textStyle: new TextStyle(
-                                      color: Colors.white, fontSize: 18)),
-                            )),
-                            SizedBox(
-                              height: 10,
-                            ),
-                            Container(
-                              child: Text(
-                                "Reviews",
-                                style: GoogleFonts.varelaRound(
-                                    textStyle: new TextStyle(
-                                        color: Colors.white, fontSize: 18)),
-                              ),
-                            )
-                          ],
-                        ),
-                        SizedBox(
-                          width: 130,
-                        ),
+                        
                         Column(
                           children: [
                             Container(

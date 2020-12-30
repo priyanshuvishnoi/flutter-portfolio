@@ -1,6 +1,6 @@
-import 'package:myCV/Desktop/SixthDesktopPage.dart';
-import 'package:myCV/Mobile/SixthMobilePage.dart';
-import 'package:myCV/Tablet/SixthTabletPage.dart';
+import '../Desktop/SixthDesktopPage.dart';
+import '../Mobile/SixthMobilePage.dart';
+import '../Tablet/SixthTabletPage.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:flutter/material.dart';
 

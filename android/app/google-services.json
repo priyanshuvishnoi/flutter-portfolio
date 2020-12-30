@@ -142,7 +142,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:925163883221:android:a1fb0bdeb27f28477ef05c",
         "android_client_info": {
-          "package_name": "com.example.myCV"
+          "package_name": "com.example.flutter-portfolio"
         }
       },
       "oauth_client": [

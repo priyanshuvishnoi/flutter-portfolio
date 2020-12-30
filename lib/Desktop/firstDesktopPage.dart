@@ -53,9 +53,9 @@ class _FirstDesktopPageState extends State<FirstDesktopPage> {
                       fadingDuration: Duration(seconds: 2),
                       slidingCurve: Curves.bounceInOut,
                       slidingBeginOffset: Offset(1.3, 1.4),
-                      child: Text("<Sahyog Saini />",
+                      child: Text("<Priyanshu Vishnoi />",
                           style: GoogleFonts.robotoMono(
-                            fontSize: 70,
+                            fontSize: 65,
                             textStyle: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold),
@@ -63,10 +63,9 @@ class _FirstDesktopPageState extends State<FirstDesktopPage> {
                   SizedBox(height: 20),
                   TypewriterAnimatedTextKit(
                     text: [
-                      "Flutter Developer",
+                      "React Js Developer",
                       "Full Stack Developer",
-                      "Node Js Developer",
-                      "Project Leader"
+                      "Node Js Developer"
                     ],
                     textStyle: TextStyle(
                       fontSize: 35.0,

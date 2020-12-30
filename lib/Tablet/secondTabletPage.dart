@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:myCV/widgets/tabletProgressIndicator.dart';
+import '../widgets/tabletProgressIndicator.dart';
 import 'package:particles_flutter/particles_flutter.dart';
 import 'package:social_media_buttons/social_media_button.dart';
 

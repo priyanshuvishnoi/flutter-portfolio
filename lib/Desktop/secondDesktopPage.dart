@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:myCV/widgets/progressIndicator.dart';
+import '../widgets/progressIndicator.dart';
 import 'package:particles_flutter/particles_flutter.dart';
 import 'package:social_media_buttons/social_media_button.dart';
 
@@ -76,7 +76,7 @@ class _SecondDesktopPageState extends State<SecondDesktopPage> {
                         ),
                         SizedBox(height: 20),
                         Text(
-                          "I'm a Full Stack web and Flutter developer",
+                          "I'm a Full Stack web and React JS developer",
                           style: GoogleFonts.robotoMono(
                               textStyle: TextStyle(
                                   color: Colors.white,
@@ -103,33 +103,28 @@ class _SecondDesktopPageState extends State<SecondDesktopPage> {
                           children: [
                             SocialMediaButton.linkedin(
                               url:
-                                  "https://www.linkedin.com/in/sahyog-saini-4b511617b/",
+                                  "https://www.linkedin.com/in/priyanshu-vishnoi-53b816169/",
                               color: violet,
                               size: 20.0,
                             ),
                             SocialMediaButton.twitter(
-                              url: "https://twitter.com/SainiSahyog",
+                              url: "https://twitter.com/Priyanshu990",
                               color: violet,
                               size: 20.0,
                             ),
                             SocialMediaButton.facebook(
-                              url: "https://www.facebook.com/sahyog.cse",
+                              url: "https://www.facebook.com/priyanshu.vishnoi.1/",
                               color: violet,
                               size: 20.0,
                             ),
                             SocialMediaButton.instagram(
                               url:
-                                  "https://www.instagram.com/the_phenomenal.__/",
+                                  "https://www.instagram.com/priyanshu9900/",
                               color: violet,
                               size: 20.0,
                             ),
                             SocialMediaButton.github(
-                              url: "https://github.com/thephenomenal10",
-                              color: violet,
-                              size: 20.0,
-                            ),
-                            SocialMediaButton.medium(
-                              url: "https://medium.com/@sahyogsaini.cse",
+                              url: "https://github.com/priyanshuvishnoi",
                               color: violet,
                               size: 20.0,
                             )
@@ -177,20 +172,20 @@ class _SecondDesktopPageState extends State<SecondDesktopPage> {
                   progressIndicator(
                       context: context,
                       leading: "Flutter",
-                      percent: "90%",
-                      fillPer: 0.9),
+                      percent: "50%",
+                      fillPer: 0.5),
                   SizedBox(height: 10.0),
                   progressIndicator(
                       context: context,
-                      leading: "AWS",
-                      percent: "70%",
-                      fillPer: 0.7),
+                      leading: "Bootstrap",
+                      percent: "65%",
+                      fillPer: 0.65),
                   SizedBox(height: 10.0),
                   progressIndicator(
                       context: context,
                       leading: "Firbase",
-                      percent: "75%",
-                      fillPer: 0.75),
+                      percent: "65%",
+                      fillPer: 0.65),
                   SizedBox(height: 10.0),
                   progressIndicator(
                       context: context,
@@ -200,21 +195,21 @@ class _SecondDesktopPageState extends State<SecondDesktopPage> {
                   SizedBox(height: 10.0),
                   progressIndicator(
                       context: context,
-                      leading: "React Native",
+                      leading: "ReactJS",
                       percent: "70%",
                       fillPer: 0.7),
                   SizedBox(height: 10.0),
                   progressIndicator(
                       context: context,
-                      leading: "Unity 3D",
+                      leading: "NodeJS",
                       percent: "75%",
                       fillPer: 0.75),
                   SizedBox(height: 10.0),
                   progressIndicator(
                       context: context,
-                      leading: "Cloud Firestore",
-                      percent: "75%",
-                      fillPer: 0.75),
+                      leading: "MySQL",
+                      percent: "65%",
+                      fillPer: 0.65),
                   SizedBox(height: 10.0),
                   progressIndicator(
                       context: context,
@@ -233,6 +228,12 @@ class _SecondDesktopPageState extends State<SecondDesktopPage> {
                       leading: "C",
                       percent: "78%",
                       fillPer: 0.78),
+                  SizedBox(height: 10.0),
+                  progressIndicator(
+                      context: context,
+                      leading: "Python",
+                      percent: "80%",
+                      fillPer: 0.80),
                   SizedBox(height: 10.0),
                   progressIndicator(
                       context: context,

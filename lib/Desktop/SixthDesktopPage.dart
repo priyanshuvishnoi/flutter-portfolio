@@ -2,8 +2,8 @@ import 'package:decoding_text_effect/decoding_text_effect.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:myCV/services/databaseService.dart';
-import 'package:myCV/widgets/dialogBox.dart';
+import '../services/databaseService.dart';
+import '../widgets/dialogBox.dart';
 import 'package:social_media_buttons/social_media_button.dart';
 
 import '../constants.dart';
@@ -278,7 +278,7 @@ class _SixthDesktopPageState extends State<SixthDesktopPage> {
                     ),
                     Expanded(
                       child: Text(
-                        "+918171940441",
+                        "+917500237607",
                         style: GoogleFonts.varelaRound(
                             textStyle: new TextStyle(
                                 color: Colors.white, fontSize: 18)),
@@ -295,7 +295,7 @@ class _SixthDesktopPageState extends State<SixthDesktopPage> {
                     ),
                     Expanded(
                       child: Text(
-                        "sahyogsaini.cse@gmail.com",
+                        "pv990@outlook.com",
                         style: GoogleFonts.varelaRound(
                             textStyle: new TextStyle(
                                 color: Colors.white, fontSize: 18)),
@@ -331,41 +331,37 @@ class _SixthDesktopPageState extends State<SixthDesktopPage> {
                               children: [
                                 SocialMediaButton.linkedin(
                                   url:
-                                      "https://www.linkedin.com/in/sahyog-saini-4b511617b/",
+                                      "https://www.linkedin.com/in/priyanshu-vishnoi-53b816169/",
                                   color: violet,
                                   size: 20.0,
                                 ),
                                 SocialMediaButton.twitter(
-                                  url: "https://twitter.com/SainiSahyog",
+                                  url: "https://twitter.com/Priyanshu990",
                                   color: violet,
                                   size: 20.0,
                                 ),
                                 SocialMediaButton.facebook(
-                                  url: "https://www.facebook.com/sahyog.cse",
+                                  url: "https://www.facebook.com/priyanshu.vishnoi.1/",
                                   color: violet,
                                   size: 20.0,
                                 ),
                                 SocialMediaButton.instagram(
                                   url:
-                                      "https://www.instagram.com/the_phenomenal.__/",
+                                      "https://www.instagram.com/priyanshu9900/",
                                   color: violet,
                                   size: 20.0,
                                 ),
                                 SocialMediaButton.github(
-                                  url: "https://github.com/thephenomenal10",
+                                  url: "https://github.com/priyanshuvishnoi",
                                   color: violet,
                                   size: 20.0,
                                 ),
-                                SocialMediaButton.medium(
-                                  url: "https://medium.com/@sahyogsaini.cse",
-                                  color: violet,
-                                  size: 20.0,
-                                ),
+                                
                                 SizedBox(width: 30),
                                 Expanded(
                                   child: Container(
                                     child: Text(
-                                      "© 2020 Sahyog. All rights reserved.",
+                                      "© 2020 Priyanshu. All rights reserved.",
                                       style: GoogleFonts.varelaRound(
                                           textStyle: new TextStyle(
                                               color: Colors.white,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:myCV/Screens/home_page.dart';
-import 'package:myCV/constants.dart';
+import '../Screens/home_page.dart';
+import '../constants.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:myCV/widgets/mySlide.dart';
+import '../widgets/mySlide.dart';
 
 /*
 splash screen

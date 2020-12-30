@@ -1,6 +1,6 @@
-import 'package:myCV/Desktop/secondDesktopPage.dart';
-import 'package:myCV/Mobile/secondMobilePage.dart';
-import 'package:myCV/Tablet/secondTabletPage.dart';
+import '../Desktop/secondDesktopPage.dart';
+import '../Mobile/secondMobilePage.dart';
+import '../Tablet/secondTabletPage.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:flutter/material.dart';
 

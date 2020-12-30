@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hover_effect/hover_effect.dart';
-import 'package:myCV/widgets/dialogBox.dart';
+import '../widgets/dialogBox.dart';
 import 'package:decoding_text_effect/decoding_text_effect.dart';
 
 import '../constants.dart';

@@ -2,8 +2,8 @@ import 'package:decoding_text_effect/decoding_text_effect.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:myCV/services/databaseService.dart';
-import 'package:myCV/widgets/dialogBox.dart';
+import '../services/databaseService.dart';
+import '../widgets/dialogBox.dart';
 import 'package:social_media_buttons/social_media_button.dart';
 
 import '../constants.dart';

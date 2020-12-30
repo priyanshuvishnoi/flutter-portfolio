@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:myCV/Layout/SixthLayoutPage.dart';
-import 'package:myCV/Layout/fifthLayoutPage.dart';
-import 'package:myCV/Layout/firstPageLayout.dart';
-import 'package:myCV/Layout/fourthLayoutPage.dart';
-import 'package:myCV/Layout/secondPageLayout.dart';
-import 'package:myCV/Layout/thirdLayoutPage.dart';
+import '../Layout/SixthLayoutPage.dart';
+// import '../Layout/fifthLayoutPage.dart';
+import '../Layout/firstPageLayout.dart';
+import '../Layout/fourthLayoutPage.dart';
+import '../Layout/secondPageLayout.dart';
+import '../Layout/thirdLayoutPage.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
             SecondPageLayout(),
             ThirdPageLayout(),
             FourthPageLayout(),
-            FifthPageLayout(),
+            // FifthPageLayout(),
             SixthPageLayout(),
             // SixthPage(),
           ],

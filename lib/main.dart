@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myCV/Screens/splashScreen.dart';
+import './Screens/splashScreen.dart';
 
 
 void main(){

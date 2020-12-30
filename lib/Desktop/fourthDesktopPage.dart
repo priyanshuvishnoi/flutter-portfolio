@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hover_effect/hover_effect.dart';
-import 'package:myCV/widgets/dialogBox.dart';
+import '../widgets/dialogBox.dart';
 import 'package:decoding_text_effect/decoding_text_effect.dart';
 
 import '../constants.dart';
@@ -60,14 +60,21 @@ Widget fourthDesktopPage(BuildContext context) {
                             // child: Image.network(
                             //     "https://1.bp.blogspot.com/-7IyIlor3RBw/Xt5CsR-RJ0I/AAAAAAAAACg/rkEJwg4oor4wPpdUM6WYfCEf23x_0zAEwCNcBGAsYHQ/s1600/ncrb.jpeg",
                             //     fit: BoxFit.fitWidth));
-                            child: Image.asset("assets/ncrb.jpeg",
+                            child: Image.asset("assets/pager.png",
                                 fit: BoxFit.fitWidth));
                       },
                       depth: 10,
                       depthColor: Colors.grey[500],
                       onTap: () {
-                        return DialogBox().show(context, "NCRB App",
-                            "This is android application for users as well\n as users. In  this application we had implimented \n all the features which can done Offline.");
+                        return DialogBox().show(
+                            context,
+                            "Digital Signature Verification",
+                            "This project is developed for the event of Inter-college\n"
+                                "Hackathon (IPEC Techathlon 2020), where we have designed\n"
+                                "the frontend of this project. Aim of this project is to provide a\n"
+                                "digital signature for the document uploaded, which can\n"
+                                "further, be used to verify whether the document has been\n"
+                                "tampered or not.");
                       },
                       shadow: BoxShadow(
                           color: Colors.purple[200],
@@ -87,14 +94,17 @@ Widget fourthDesktopPage(BuildContext context) {
                             // child: Image.network(
                             //     "https://1.bp.blogspot.com/-H_dz4SWf_1s/Xt5DQRlgBXI/AAAAAAAAACo/y5y55kuGCo0M7MEzmlUwk08k50eiR0CFQCNcBGAsYHQ/s1600/fintech.jpeg",
                             //     fit: BoxFit.cover)
-                            child: Image.asset("assets/fintech.jpeg",
+                            child: Image.asset("assets/medisons.png",
                                 fit: BoxFit.cover));
                       },
                       depth: 10,
                       depthColor: Colors.grey[500],
                       onTap: () {
-                        return DialogBox().show(context, "Fintech WebApp",
-                            "This website is developed by common technology like \nHTML, css, JavaScript having several features \nlike Expense Manager, Loan manager, Tax Calculator,\n Currency convertor with smooth and simple Ui experience ");
+                        return DialogBox().show(
+                            context,
+                            "Medisons Admin Panel Frontend",
+                            "Designed an Admin Panel Front-End for an e-commerce\n"
+                                "project under AVILAKSH E-SERVICE LLP");
                       },
                       shadow: BoxShadow(
                           color: Colors.purple[200],

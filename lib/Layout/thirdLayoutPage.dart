@@ -1,7 +1,7 @@
 
-import 'package:myCV/Desktop/thirdDesktopPage.dart';
-import 'package:myCV/Mobile/thirdMobilePage.dart';
-import 'package:myCV/Tablet/thirdTabletPage.dart';
+import '../Desktop/thirdDesktopPage.dart';
+import '../Mobile/thirdMobilePage.dart';
+import '../Tablet/thirdTabletPage.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:flutter/material.dart';
 
